@@ -8,10 +8,11 @@ CREATE VIEW Graphical_Design_Interest AS
 	SELECT
 		Customer.customer_id,
 		Customer.name,
-        Category.title,
+		Category.title,
 		SUM(Quiz.score) as score
 	FROM
 		Customer
+	
 	/** Join all tables where customer is related and category corresponds  **/
 	JOIN Quiz
 	ON Quiz.customer_id = Customer.customer_id
@@ -26,8 +27,8 @@ CREATE VIEW Graphical_Design_Interest AS
 	ON Category.category_id = Course.category_id
 	AND Category.title = "Graphical Design"
 	
-    GROUP BY
-		Customer.customer_id;
+    	GROUP BY
+	Customer.customer_id;
 ;
 
 
