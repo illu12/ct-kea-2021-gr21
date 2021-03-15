@@ -5,7 +5,7 @@ Team DA2
 
 # Content
 This repository contains both the physical data model for the digital solution inquired by Coderstrust, as well as the application in the form of a webapplication.
-The webapplication can be accessed at http://206.189.11.147/ (currently hosting downtime, 15/3 12:31).
+The webapplication can be accessed at http://206.189.11.147/.
 
 
 # Setting up the database
