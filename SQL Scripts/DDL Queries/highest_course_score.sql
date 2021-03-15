@@ -44,5 +44,5 @@ END$$
 DELIMITER ;
 
 -- This checks the highest course score
-CALL HighestCourseScore(1);
+-- CALL HighestCourseScore(1);
 
