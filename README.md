@@ -14,8 +14,6 @@ The webapplication can be accessed at http://206.189.11.147/coderstrust (current
 ## Prerequisites
 - To use the datamodel, you are assumed to have installed a MySql server on your PC, it is advised to have the MySql Workbench installed too.
 (tutorial on how to install both: https://www.youtube.com/watch?v=u96rVINbAUI)
-- To use the datamodel, you are assumed to have installed a MySql server on your PC, or have access to a remote PC.
-It is adviced to have the MySql DBMS, MySql Workbench installed for testing the scripts.
 - Download the repository as a .zip
 
 ## Get started
