@@ -1,5 +1,5 @@
 # Authors
-By Hamza Amir, Alexander Sandbæk & Kasper Kim Andersen
+Hamza Amir, Alexander Sandbæk & Kasper Kim Andersen
 Group 21
 Team DA2
 
