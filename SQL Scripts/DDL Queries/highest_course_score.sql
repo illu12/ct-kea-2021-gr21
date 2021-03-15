@@ -17,17 +17,18 @@ BEGIN
 	SELECT
 		Customer.name,
 		Course.course_id,
-        Course.title,
+		Course.title,
 		SUM(Quiz.score),
-        Course.url
+		Course.url
 	FROM
 		Course
+	
 	-- Get customer data with corresponding customer_id as input
 	JOIN
 		Customer
 	ON
 		Customer.customer_id = customer_id_
-	-- Backtrack and group scores by course
+		-- Backtrack and group scores by course
 	JOIN
 		Question
 	ON
