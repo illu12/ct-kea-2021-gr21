@@ -18,9 +18,9 @@ It is adviced to have the MySql DBMS, MySql Workbench installed for testing the 
 When you have downloaded the scripts, you have the possibility of running either each individual setup script, or the COMPLETE_SETUP.sql script, which will make sure everything is setup correctly, including table values.
 
 If you choose not to run the COMPLETE_SETUP.sql script, you should run the scripts in following order:
-Markup : 1. setup_database.sql
-         2. graphical_design_interest.sql
-         3. programming_interest.sql
-         4. social_media_interest.sql
-         5. highest_course_score.sql
-         6. user_interests.sql
+1. setup_database.sql
+2. graphical_design_interest.sql
+3. programming_interest.sql
+4. social_media_interest.sql
+5. highest_course_score.sql
+6. user_interests.sql
